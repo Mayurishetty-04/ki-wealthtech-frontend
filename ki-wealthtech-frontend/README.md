@@ -170,39 +170,46 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
-#🧪 Live Demo
-Run the Application
+# 🧪 Live Demo
+
+## Run the Application
+
+```bash
 npm install
 npm run dev
+```
 
 Open the local URL shown in the terminal.
 
-Example Requirement Values
+## Example Requirement Values
 
 Use these sample values to explore the application:
 
-Amount Required: ₹5,00,000
-Tenure: 24 months
-Risk Preference: Medium
-Security Type: Equity
+- **Amount Required:** ₹5,00,000
+- **Tenure:** 24 months
+- **Risk Preference:** Medium
+- **Security Type:** Equity
 
-Click Find Opportunities.
+Click **Find Opportunities**.
 
-Demo Flow
-Explore the available opportunities.
-Use Search, Filter, or Sort to refine the results.
-Click View Details to view opportunity information and eligibility.
-Select 2 or 3 opportunities.
-Click Compare Selected.
-Review the side-by-side comparison.
-Scroll down to view the Smart Comparison Analysis.
-Additional Testing
+## Demo Flow
+
+1. Explore the available opportunities.
+2. Use **Search**, **Filter**, or **Sort** to refine the results.
+3. Click **View Details** to view opportunity information and eligibility.
+4. Select **2 or 3 opportunities**.
+5. Click **Compare Selected**.
+6. Review the side-by-side comparison.
+7. Scroll down to view the **Smart Comparison Analysis**.
+
+## Additional Testing
 
 The following scenarios can also be tested:
 
-Submit the requirement form with empty or invalid fields.
-Enter an amount outside an opportunity's supported range.
-Enter a tenure outside the supported range.
-Search for a provider/product that does not exist to view the empty state.
-Select 3 opportunities and attempt to select a 4th to test the comparison limit.
+- Submit the requirement form with empty or invalid fields.
+- Enter an amount outside an opportunity's supported range.
+- Enter a tenure outside the supported range.
+- Search for a provider/product that does not exist to view the empty state.
+- Select 3 opportunities and attempt to select a 4th to test the comparison limit.
