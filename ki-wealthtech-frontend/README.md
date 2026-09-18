@@ -170,3 +170,39 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+#🧪 Live Demo
+Run the Application
+npm install
+npm run dev
+
+Open the local URL shown in the terminal.
+
+Example Requirement Values
+
+Use these sample values to explore the application:
+
+Amount Required: ₹5,00,000
+Tenure: 24 months
+Risk Preference: Medium
+Security Type: Equity
+
+Click Find Opportunities.
+
+Demo Flow
+Explore the available opportunities.
+Use Search, Filter, or Sort to refine the results.
+Click View Details to view opportunity information and eligibility.
+Select 2 or 3 opportunities.
+Click Compare Selected.
+Review the side-by-side comparison.
+Scroll down to view the Smart Comparison Analysis.
+Additional Testing
+
+The following scenarios can also be tested:
+
+Submit the requirement form with empty or invalid fields.
+Enter an amount outside an opportunity's supported range.
+Enter a tenure outside the supported range.
+Search for a provider/product that does not exist to view the empty state.
+Select 3 opportunities and attempt to select a 4th to test the comparison limit.
